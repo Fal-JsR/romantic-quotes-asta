@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata-Kata Romantis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Background Image -->
+        <div class="background-image" id="backgroundImage"></div>
+        
+        <!-- Main Content -->
+        <div class="content">
+            <h1 class="title">Nihaoo Neng asta</h1>
+            
+            <div class="quote-container" id="quoteContainer">
+                <p class="quote-text" id="quoteText">Loading...</p>
+                <div class="quote-author" id="quoteAuthor"></div>
+            </div>
+            
+            <div class="controls">
+                <button class="btn btn-primary" id="nextQuoteBtn">
+                    <span>Kata Berikutnya</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="image-gallery" id="imageGallery">
+                <!-- Images will be loaded dynamically -->
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>digeser hiji hijinya geulis</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
