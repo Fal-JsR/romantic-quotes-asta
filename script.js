@@ -1,7 +1,7 @@
 // Data kata-kata romantis - Anda dapat mengubah atau menambah kata-kata di sini
 const romanticQuotes = [
     {
-        text: "Helloo Neng asta, di baca pelan-pelan yaa",
+        text: "Helloo naila, di baca pelan-pelan yaa",
         author: "",
         image: "images/love1.jpg"
     },
